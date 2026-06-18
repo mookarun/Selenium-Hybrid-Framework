@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Error Validation Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="karunasagarlearning.TestComponent.Listeners"/>
+    </listeners>
+
+    <test name="Error Validation Test">
+        <groups>
+            <run>
+                <include name="ErrorHandling"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="karunasagarlearning.Test.ErrorValidationTest"/>
+        </classes>
+    </test>
+
+</suite>
